@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sate"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.sate.Sate"
+        android:label="Sate"
+        tools:layout="@layout/fragment_sate" />
+    <fragment
+        android:id="@+id/nav_rendang"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.rendang.Rendang"
+        android:label="Rendang"
+        tools:layout="@layout/fragment_rendang" />
+    <fragment
+        android:id="@+id/nav_kek"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.kek.kek"
+        android:label="kek"
+        tools:layout="@layout/fragment_kek" />
+    <fragment
+        android:id="@+id/nav_khaotom"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.khaotom.khaotom"
+        android:label="khaotom"
+        tools:layout="@layout/fragment_khaotom" />
+    <fragment
+        android:id="@+id/nav_yakiniku"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.yakiniku.yakiniku"
+        android:label="yakiniku"
+        tools:layout="@layout/fragment_yakiniku" />
+    <fragment
+        android:id="@+id/nav_onigiri"
+        android:name="com.reyjunaaf.tugas5_navdraw.ui.onigiri.onigiri"
+        android:label="onigiri"
+        tools:layout="@layout/fragment_onigiri" />
+</navigation>

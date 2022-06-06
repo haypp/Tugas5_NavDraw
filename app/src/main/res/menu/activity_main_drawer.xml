@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item android:title="Indonesia">
+            <menu>
+                <item
+                    android:id="@+id/nav_sate"
+                    android:title="Sate" />
+                <item
+                    android:id="@+id/nav_rendang"
+                    android:title="Rendang" />
+            </menu>
+        </item>
+        <item android:title="Malaysia">
+            <menu>
+                <item
+                    android:id="@+id/nav_kek"
+                    android:title="Kek Lapis Sewarak" />
+                <item
+                    android:id="@+id/nav_khaotom"
+                    android:title="Khaotom" />
+            </menu>
+        </item>
+        <item android:title="Jepang">
+            <menu>
+                <item
+                    android:id="@+id/nav_yakiniku"
+                    android:title="Yakiniku" />
+                <item
+                    android:id="@+id/nav_onigiri"
+                    android:title="Onigiri" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
